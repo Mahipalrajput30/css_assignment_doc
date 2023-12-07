@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Flex:opsz@8..144&family=Roboto:wght@400;700&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Flex:opsz@8..144&family=Roboto:wght@400;700&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=PT+Serif&family=Roboto+Flex:opsz@8..144&family=Roboto:wght@400;700&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Open+Sans:wght@300&family=PT+Serif&family=Roboto+Flex:opsz@8..144&family=Roboto:wght@400;700&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Open+Sans:wght@300&family=PT+Serif&family=Roboto+Flex:opsz@8..144&family=Roboto:wght@400;700&family=Yeseva+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+}
+.jcc{
+    justify-content: center;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.jcse{
+    justify-content: space-evenly;
+}
+.col-100{
+    width: 100%;
+}
+.col-30{
+    width: 30%;
+    /* border: 1px solid; */
+}
+.col-10{
+    width: 10%;
+    /* border: 1px solid; */
+}
+.col-60{
+    width: 60%;
+    /* border: 1px solid; */
+}
+.col-50{
+    width: 50%;
+    /* border: 1px solid; */
+}
+.col-40{
+    width: 40%;
+    /* border: 1px solid; */
+}
+.col-3{
+    width: 3%;
+    /* border: 1px solid; */
+}
+.col-36{
+    width: 36%;
+    /* border: 1px solid; */
+}
+.col-2{
+    width: 2%;
+    /* border: 1px solid; */
+}
+.col-18{
+    width: 18%;
+    /* border: 1px solid; */
+}
+.col-21{
+    width: 21%;
+}
+.col-6{
+    width: 6%;
+}
+.col-80{
+    width: 80%;
+    /* border: 1px solid; */
+}
+.col-20{
+    width: 20%;
+    /* border: 1px solid; */
+}
+.col-33{
+    width: 33%;
+    /* border: 1px solid; */
+}
+.col-35{
+    width: 35%;
+    /* border: 1px solid; */
+}
+.links{
+    background-color: brown;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0 ;
+}
+.first-3 ul li {
+    display: inline-block;
+}
+.last-3 ul li{
+    display: inline-block;;
+}
+li a{
+    text-decoration: none;
+    padding:0 70px ;
+    color: white;  
+}
+.sec-1{
+    background-image: linear-gradient(#1415148d,#191a1881, #15151481), url(./cofee\ morning.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.sec-1-text{
+    padding: 100px 0;
+}
+
+.sec-1-text h2{
+    font-size: 90px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Yeseva One', cursive;
+    padding-bottom: 20px ;
+}
+.sec-1-text p{
+    font-family: 'PT Serif', serif;
+    font-size: 21px;
+    line-height: 33px;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+    color: white;
+    padding: 30px 0 10px 0;
+}
+.sec-1-text button{
+    display: block;
+    font-size: 14px;
+    font-family:  'PT Serif', serif;
+    text-align: center;
+    border-style: none;
+    padding: 13px 32px;
+    color: white;
+    background-color: brown;
+    margin: 90px auto 100px; 
+}
+.sec-2{
+    background-color: brown;
+
+}
+.container-2{
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+    
+}
+.sec-2 .col-30{
+    justify-content: right;
+    padding: 30px 0; 
+}
+.sec-2 .col-60 h4{
+    font-family: 'Yeseva One', cursive;
+    font-size: 28px;
+    font-weight: 200;
+    color: white;
+    padding-top: 70px;
+}
+.sec-2 .col-60 h3{
+    font-family: 'Yeseva One', cursive;
+    font-size: 48px;
+    font-weight: 200;
+    color: white;
+    padding: 27px 0;
+}
+.sec-2 .col-60 p{
+    font-family:  'PT Serif', serif;
+    font-size: 10px;
+    font-weight: 100;
+    color: white;
+    width: 60%;
+}
+.sec-2 .col-60 button{
+    color: brown;
+    font-size: 14px;
+    font-family:  'PT Serif', serif;
+    font-weight: bolder;
+    text-align: center;
+    background-color: wheat;
+    padding: 9px 12px;
+    border: none;
+    margin: 35px 0;
+}
+.sec-3 .right{
+    padding: 90px 70px 90px 0px;
+}
+.sec-3 .col-50 h3{
+    font-size: 75px;
+    padding: 10px 0;
+}
+.sec-3 .col-50 h4{
+    font-size: 20px;
+    color: #575757;
+    width: 80%;
+    font-family: "PT Serif";
+    font-weight: 400;
+    line-height: 33px;
+    padding: 30px 0;
+}
+.sec-3 .col-50 h5{
+    font-size: 17px;
+    font-family: "PT Serif";
+    font-weight: 400;
+    text-decoration-line: underline;
+    color: red;
+    padding: 35px 0;
+
+}
+.sec-4{
+    background-color: brown;
+
+}
+.sec-4-text{
+    padding: 70px 0;
+}
+.sec-4-text h2{
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: #f8eed3;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 500;
+    text-align: center;
+}
+.sec-4-text h3{
+    font-size: 18px;
+    color: #f8eed3;
+    font-family: "PT Serif";
+    font-weight: 300;
+    text-align: center;
+    line-height: 33px;
+    width: 53%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.col-36 img{
+    width: 100%;
+    height: 100%;
+}
+.sec-4 .col-36 .col-60{
+    background-color: white;
+    padding-left: 20px;
+    
+}
+.sec-4 .col-36  h3{
+    font-size: 40px;
+    color: #010101;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    padding-top: 50px;
+    
+}
+.col-36 p{
+    font-size: 16px;
+    color: #575757;
+    font-weight: 400;
+    font-family: "PT Serif";
+    width: 90%;
+    padding: 15px 0 30px;
+
+}
+.col-36 button{
+    font-size: 14px;
+    color: #feedda;
+    font-weight: 400;
+    font-family: "PT Serif";
+    text-align: center;
+    background-color: brown;
+    border: none;
+    padding: 6px 15px;
+}
+.col-80 img{
+    width: 100%;
+    height: 100%;
+}
+.sec-4 .dot {
+    font-size: 10px;
+    padding: 60px 0;
+   color: white;
+   /* display: block;
+   margin: 0 auto; */
+   display: flex;
+    justify-content: center;
+    
+}
+.dot i{
+    padding: 0 10px;
+    
+}
+.sec-5{
+    background-color: #f8eed3;
+    padding: 80px 0;
+}
+.container-5{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.sec-5-text h2{
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: brown;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 500;
+    text-align: center;
+}
+.sec-5-text h3{
+    font-size: 18px;
+    color: brown;
+    font-family: "PT Serif";
+    font-weight: 300;
+    text-align: center;
+    line-height: 33px;
+    width: 53%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.one, .two,.three{
+    background-color: white;
+    padding-bottom: 70px;
+    position: relative;
+}
+.one img,.two img,.three img{
+    width: 100%;
+    height: 100%;
+}
+.one p,.two p,.three p{
+    padding: 50px 0;
+    font-size: 17px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "PT Serif";
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.one button,.two button,.three button{
+    font-size: 21px;
+    color: #f8eed3;
+    font-weight: 700;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    background-color: brown;
+    border: none;
+    padding: 3px 18px;
+    display: block;
+    margin: 0 auto ;  
+}
+.Corpertum{
+    display: inline-block;
+    background-color: #f8eed3;
+    padding: 5px ;
+    margin: 0 auto;
+    position: absolute;
+    top: 300px ;
+    left: 135px;
+}
+.Corpertum h3{
+    font-size: 20px;
+    color: #b13941;
+    font-weight: 400;
+    font-family: "PT Serif";
+    text-align: center;
+    background-color: #f8eed3;
+    border: 2px solid brown;
+    padding: 8px 20px ;   
+}
+.sec-6{
+    background-color: brown;
+    padding: 50px 0;
+}
+.container-6{
+    width: 1500px;
+    margin: 0 auto;
+    padding: 100px 40px ;
+}
+.sec-6 .col-50{
+    height: 450px;
+    position: relative;
+    
+}
+.sec-6 .col-50 .video{
+    background-image: linear-gradient(#1b1b1a8d,#191a1981, #1a1b1981), url(./company\ profile.png);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.sec-6 h2{
+    font-size: 58px;
+    letter-spacing: 1px;
+    color: #f8eed3;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    padding: 80px 0 40px  ;
+}
+.sec-6 p{
+    font-size: 21px;
+    color: #f8eed3;
+    font-weight: 400;
+    font-family: "PT Serif";
+}
+.sec-6 i{
+    font-size:20px  ;
+    color: brown;
+    background-color: white;
+    padding: 6px ;
+    margin: 50px 25px 30px 0;
+}
+.shape{
+    position: absolute;
+    top: 180px;
+    left: 330px;
+}
+.sec-7 h3{
+    font-size: 58px;
+    letter-spacing: 1px;
+    color: #b13941;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    padding: 40px 0;
+}
+.form{
+    padding: 40px 50px;
+}
+
+
+.sec-7 .name{
+    display: block;
+    font-size: 12px;
+    color: #b0b0b0;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 12px;
+    margin-bottom: 50px;
+    width: 80%;
+    height: 5%;
+}
+.sec-7 .Gender{
+    display: block;
+    font-size: 12px;
+    color: #b0b0b0;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 12px;
+    margin-bottom: 50px;
+    width: 80%;
+    height: 5%;
+}
+.sec-7 .Messages{
+    display: block;
+    font-size: 12px;
+    color: #b0b0b0;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 12px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    width: 80%;
+}
+.sec-7 button{
+    font-size: 18px;
+    color: #f8eed3;
+    background-color: brown;
+    font-weight: 500;
+    font-family: "PT Serif";
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 30px;
+    
+}
+.container-8{
+    width: 1420px;
+    margin: 0 auto;
+    padding: 30px 0;
+
+}
+.sec-8{
+    background-color: #b13941;
+}
+.sec-8 .col-50 img{
+    width: 66%;
+    padding: 0px 10px 0px 10px;
+}
+.sec-8 .col-50 h3{
+    font-size: 25px;
+    color: #f8eed3;
+    font-weight: 700;
+    font-family: 'EB Garamond', serif;
+    padding-bottom: 30px
+}
+.sec-8 .col-50 p{
+    font-size: 12px;
+    color: #f8eed3;
+    font-weight: normal;
+    font-family: "PT Serif";
+    width: 50%;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+.sec-8 .col-50 h5{
+    font-size: 12px;
+    color: #f8eed3;
+    font-weight: lighter;
+    font-family: "PT Serif";
+    width: 60%;
+    padding-bottom: 10px;
+}
+.sec-8 .col-35{
+    margin-left: 50px;
+}
+.sec-8 .col-33 h4{
+    font-size: 18px;
+    color: #f8eed3;
+    font-weight: 700;
+    font-family: 'EB Garamond', serif;
+   
+}
+.sec-8 .col-33 li{
+    list-style: none;
+    font-size: 12px;
+    color: #f8eed3;
+    font-weight: lighter;
+    font-family: "PT Serif";
+    line-height: 24px;
+}
+.sec-8 .col-30 img{
+    width: 15%;
+    padding-bottom: 10px;
+    
+}
+.sec-8 .col-30{
+    padding-left: 30px;
+    
+}
+.sec-8 .col-30 h3{
+    font-size: 12px;
+    color: #f8eed3;
+    font-weight: lighter;
+    font-family: "PT Serif";
+    padding-bottom: 10px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+.sec-8 .col-30 i{
+    font-size:26px  ;
+    color: brown;
+    background-color: white;
+    padding: 4px ;
+    margin: 10px 20px 10px 0;
+}
+.last-div{
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 786px) and (min-width : 600px) {
+    *
+    {
+        overflow-x: hidden;
+    }
+    body
+    {
+        overflow-x: hidden;
+    }
+    .col-30,.col-60{
+        width: 100%;
+        text-align: center;
+        /* border: 1px solid; */
+    }
+    .sec-2 .col-30{
+        justify-content: center;
+    }
+    .row
+    {
+        flex-wrap: wrap;
+    }
+    .sec-2 .col-60 p
+    {
+        width: 100%;
+    }
+    .col-50
+    {
+        width: 100%
+    }
+    .col-50 img {
+        width: 100%;
+    }
+    .sec-3 .right {
+        padding: 0px 70px 90px 0px;
+    }
+    .container-5{
+        width: 100%
+    }
+    .Corpertum{
+        top:578px;
+        left:304px;
+        
+    }
+    .container-6{
+        width:100%
+    }
+    .col-40
+    {
+        width: 100%;
+    }
+    .col-10
+    {
+        width: 0;
+    }
+    .col-40 iframe{
+        width: 100%;
+    }
+    .container-8
+    {
+        width: 100%;
+    }
+    .check
+    {
+        width: 100%;
+        padding: 20px 0px;
+    }
+  }
